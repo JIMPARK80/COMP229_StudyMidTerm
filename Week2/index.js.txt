@@ -1,0 +1,28 @@
+// index.js
+
+1. write code put in index.js file
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello, world');
+}); 
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+
+2. write command at terminal
+- npm init
+- npm install -g nodemon  // nodemon install
+- nodemon // run server nodemon
+- npm install express --save
+- npm install -g express-generator
+- express -e
+- npm install
+- npm start
