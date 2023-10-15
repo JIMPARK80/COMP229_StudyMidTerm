@@ -7,3 +7,56 @@
  "scripts": {
     "start": "node ./server.js"
   },
+
+
+  // commend prompt
+npm install -g express-generator
+express -e
+
+destination is not empty, continue? [y/N] y
+
+change www -> server.js
+
+change path of package.json ->  "scripts": {
+    "start": "node ./server.js"
+  }
+
+
+should check save files
+
+
+// app.js 
+var - > let
+
+// make folder
+Assets/images
+
+Contents - app.css
+
+Scripts - app.js
+--> // IIFE -- Immediately Function Expression
+(function(){
+
+    function Start(){
+        console.log("App Started..");
+    }
+
+    window.addEventListener("load", Start);
+})();
+
+
+// change TAG from "title" to "mainheading"
+// index.ejs
+
+  
+  <body>
+    <h1><%= mainheading %></h1>
+    <p>Hello, World! <%= title %> !!!!</p>
+
+// app.js
+router.get('/', function(req, res, next) {
+  res.render('index', 
+  { title: 'Express',
+    mainheading: 'Main Heading' 
+});
+});
