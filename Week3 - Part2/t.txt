@@ -1,0 +1,14 @@
+// commend prompt
+npm install -g express-generator
+express -e
+
+destination is not empty, continue? [y/N] y
+
+change www -> server.js
+
+change path of package.json ->  "scripts": {
+    "start": "node ./server.js"
+  }
+
+
+should check save files

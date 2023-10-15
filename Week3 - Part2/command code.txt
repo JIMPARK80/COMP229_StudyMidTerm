@@ -1,2 +1,9 @@
 - npm install -g express-generator
 - express -e
+- npm install
+
+//  package.json - change path
+
+ "scripts": {
+    "start": "node ./server.js"
+  },
