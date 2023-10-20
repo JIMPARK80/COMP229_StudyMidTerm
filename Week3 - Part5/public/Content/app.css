@@ -1,0 +1,58 @@
+/* custom css goes here */
+body{ /* background color white (#88D8ED) and text color dark gray (#666666).*/
+    background-color:#88D8ED;
+    color:#666666;
+    font-family: arial;
+    margin: 50px 50px;
+    border: 1px;
+    background-image: linear-gradient(#FFFFFF, #90c7e3);
+  }
+  
+  header{ 
+    background-color:#00008d;
+    color:#FFFFFF;  
+    line-height: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    /* background-image:url('../images/sunset.jpg'); */
+    background-repeat: no-repeat;
+    text-indent:1em;
+    background-position: right;
+  }
+
+  h1{
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size:3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.25em;
+  }
+  
+  
+  h2{ /* Style for the h2 element selector that configure dark blue text color (#000033).*/
+    color:#ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000033;
+  }
+  
+  main {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-Top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom:50px;
+    margin-left: 30px; 
+    background-color: white;
+    box-shadow: 5px 5px 5px #333333;
+  }
+
+  img{
+    margin-bottom:50px;
+  }
